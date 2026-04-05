@@ -11,7 +11,7 @@ import { Mail, Phone, Facebook, Instagram, Linkedin } from 'lucide-vue-next'
 
     <div class="space-y-3">
       <p class="flex justify-center gap-2"><Mail/> honestpatoyoudebo@gmail.com</p>
-      <p class="flex justify-center gap-2"><Phone/> +231775987649</p>
+      <p class="flex justify-center gap-2"><Phone/> +231775987649/+231555854750</p>
 
       <div class="flex justify-center gap-6 mt-4 text-secondary">
         <a href="https://www.facebook.com/share/1QCeYymJQC/"><Facebook/></a>

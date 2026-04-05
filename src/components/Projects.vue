@@ -4,9 +4,21 @@ import { ref } from 'vue'
 const selected = ref(null)
 
 const projects = [
-  { img: '/src/assets/projects/project1.jpg', desc: 'Flyer Design for Business' },
-  { img: '/src/assets/projects/project2.jpg', desc: 'Logo Branding Project' },
-  // continue up to 15 with DIFFERENT descriptions
+  { img: '/src/assets/projects/project1.jpeg', desc: 'Flyer Design for Restaurent' },
+  { img: '/src/assets/projects/project2.jpeg', desc: 'Advertisement Design for a Makeup Studio' },
+  { img: '/src/assets/projects/project3.jpeg', desc: 'Restaurant Menu Design' },
+  { img: '/src/assets/projects/project4.jpeg', desc: 'Event Poster Design' },
+  { img: '/src/assets/projects/project5.jpeg', desc: 'Business flyer Design' },
+  { img: '/src/assets/projects/project6.jpeg', desc: 'Flyer Design for a Salon and Makeup Studio' },
+  { img: '/src/assets/projects/project7.jpeg', desc: 'Flyer Design for a Barbing Salon' },
+  { img: '/src/assets/projects/project8.jpeg', desc: 'Graduation Invitation Design' },
+  { img: '/src/assets/projects/project9.jpeg', desc: 'Wedding Brochure Design' },
+  { img: '/src/assets/projects/project10.jpeg', desc: 'Admission Flyer Design' },
+  { img: '/src/assets/projects/project11.jpeg', desc: 'Graphic Design school flyer' },
+  { img: '/src/assets/projects/project12.jpeg', desc: 'Music Album Cover Design' },
+  { img: '/src/assets/projects/project13.jpeg', desc: 'Church Youth Event Poster' },
+  { img: '/src/assets/projects/project14.jpeg', desc: 'Facilitators poster' },
+  { img: '/src/assets/projects/project15.jpeg', desc: 'Church Event Poster' }
 ]
 </script>
 

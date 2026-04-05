@@ -1,6 +1,6 @@
 <script setup>
-import profile from '../assets/profile.jpg'
-import bg from '../assets/background.jpg'
+import profile from '/src/assets/profile.jpeg'
+import background from '/src/assets/background.jpeg'
 </script>
 
 <template>
@@ -9,7 +9,7 @@ import bg from '../assets/background.jpg'
     <!-- Background -->
     <div 
       class="absolute inset-0 bg-cover bg-center blur-sm scale-110"
-      :style="{ backgroundImage: `url(${bg})` }"
+      :style="{ backgroundImage: `url(${background})` }"
     ></div>
 
     <!-- Smokey overlay -->
