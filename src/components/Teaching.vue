@@ -3,7 +3,7 @@ import { reactive } from 'vue'
 
 const teaching = reactive(
   Array.from({ length: 5 }, (_, i) => ({
-    image: `/src/assets/teaching/teach${i+1}.jpeg`,
+    image: `/images/teaching/teach${i+1}.jpeg`,
     desc: `Teaching moment ${i+1}`,
     open: false
   }))
