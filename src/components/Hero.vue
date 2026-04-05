@@ -1,12 +1,26 @@
+<script setup>
+import profile from '../assets/profile.jpg'
+import bg from '../assets/background.jpg'
+</script>
+
 <template>
-  <section 
-    class="h-screen bg-cover bg-center flex items-center justify-center text-white"
-    style="background-image: url('/src/assets/background.jpg')"
-  >
-    <div class="text-center bg-black/60 p-6 rounded">
-      <img src="/src/assets/profile.jpg" class="w-32 h-32 rounded-full mx-auto mb-4"/>
+  <section class="relative h-screen flex items-center justify-center text-white">
+
+    <!-- Background -->
+    <div 
+      class="absolute inset-0 bg-cover bg-center blur-sm scale-110"
+      :style="{ backgroundImage: `url(${bg})` }"
+    ></div>
+
+    <!-- Smokey overlay -->
+    <div class="absolute inset-0 bg-black/60"></div>
+
+    <!-- Content -->
+    <div class="relative text-center">
+      <img :src="profile" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-secondary"/>
       <h1 class="text-4xl font-bold">Honest Pato Youdebo</h1>
-      <p class="mt-2">Graphic Designer & Instructor</p>
+      <p class="mt-2 text-secondary">Graphic Designer & Instructor</p>
     </div>
+
   </section>
 </template>

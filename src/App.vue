@@ -5,6 +5,7 @@ import About from './components/About.vue'
 import Projects from './components/Projects.vue'
 import Teaching from './components/Teaching.vue'
 import Contact from './components/Contact.vue'
+import Education from './components/Education.vue'
 </script>
 
 <template>
@@ -14,4 +15,5 @@ import Contact from './components/Contact.vue'
   <Projects />
   <Teaching />
   <Contact />
+  <Education />
 </template>
